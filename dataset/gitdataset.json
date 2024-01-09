@@ -1,0 +1,41 @@
+{
+	"name": "gitdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "kid1.csv",
+				"folderPath": "source",
+				"container": "sreekarcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Age",
+				"type": "String"
+			},
+			{
+				"name": "Weight",
+				"type": "String"
+			},
+			{
+				"name": "Length",
+				"type": "String"
+			},
+			{
+				"name": "Head circumference",
+				"type": "String"
+			}
+		]
+	}
+}
