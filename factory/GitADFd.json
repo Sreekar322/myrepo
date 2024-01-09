@@ -1,0 +1,9 @@
+{
+	"name": "GitADFd",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "603284e1-8e11-4e82-abb7-80030f9356a0",
+		"tenantId": "80735762-a7b7-48d6-9078-b0d7ab73899e"
+	}
+}
